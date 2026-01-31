@@ -1,0 +1,7 @@
+/crawler
+/preg_venv
+dumb.py
+.env
+__pycache__/
+/Survey
+/evaluation

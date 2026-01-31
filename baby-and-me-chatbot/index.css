@@ -1,0 +1,216 @@
+/* Bengali Font Configuration for Pregnancy Chatbot */
+/* Using Noto Sans Bengali for proper Bengali text rendering */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Set Bengali font as primary with fallbacks */
+  html {
+    font-family: 'Noto Sans Bengali', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Ensure proper viewport behavior on mobile */
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  body {
+    font-family: 'Noto Sans Bengali', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-feature-settings: "liga" 1, "kern" 1;
+    text-rendering: optimizeLegibility;
+    /* Prevent horizontal scrolling on mobile */
+    overflow-x: hidden;
+    /* Support safe areas on mobile devices */
+    padding: env(safe-area-inset-top, 0) env(safe-area-inset-right, 0) env(safe-area-inset-bottom, 0) env(safe-area-inset-left, 0);
+  }
+
+  /* Mobile viewport height handling */
+  .h-screen {
+    height: 100vh;
+    height: 100dvh; /* Dynamic viewport height for mobile */
+  }
+
+  /* Safe area utilities */
+  .safe-area-inset-bottom {
+    padding-bottom: env(safe-area-inset-bottom, 0);
+  }
+
+  .safe-area-inset-top {
+    padding-top: env(safe-area-inset-top, 0);
+  }
+}
+
+@layer components {
+  /* Ensure Bengali text renders properly in all components */
+  .font-bengali {
+    font-family: 'Noto Sans Bengali', sans-serif;
+  }
+  
+  /* Custom font weights for Bengali text */
+  .font-bengali-light {
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-weight: 300;
+  }
+  
+  .font-bengali-regular {
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-weight: 400;
+  }
+  
+  .font-bengali-medium {
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-weight: 500;
+  }
+  
+  .font-bengali-semibold {
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-weight: 600;
+  }
+  
+  .font-bengali-bold {
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-weight: 700;
+  }
+  
+  /* Table styling for markdown tables */
+  .bg-rose-25 {
+    background-color: rgb(255 251 252);
+  }
+  
+  .bg-rose-150 {
+    background-color: rgb(254 205 211);
+  }
+  
+  .bg-pink-150 {
+    background-color: rgb(251 207 232);
+  }
+}
+
+@layer utilities {
+  /* Professional animations for the pregnancy chatbot */
+  
+  /* Fade in animation */
+  .animate-fade-in {
+    animation: fadeIn 0.4s ease-out forwards;
+  }
+  
+  .animate-fade-in-scale {
+    animation: fadeInScale 0.5s ease-out forwards;
+    transform-origin: top;
+  }
+  
+  .animate-fade-in-up {
+    animation: fadeInUp 0.4s ease-out forwards;
+  }
+  
+  /* Slide animations */
+  .animate-slide-up {
+    animation: slideUp 0.5s ease-out forwards;
+  }
+  
+  .animate-slide-down {
+    animation: slideDown 0.3s ease-out forwards;
+  }
+  
+  .animate-slide-in-stagger {
+    animation: slideInStagger 0.4s ease-out forwards;
+    opacity: 0;
+  }
+  
+  /* Expand animation */
+  .animate-expand-down {
+    animation: expandDown 0.3s ease-out forwards;
+  }
+  
+  /* Typing animation */
+  .animate-typing {
+    animation: typing 1.5s steps(40, end) infinite;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInScale {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInStagger {
+  from {
+    opacity: 0;
+    transform: translateX(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes expandDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+    transform: scaleY(0);
+  }
+  to {
+    opacity: 1;
+    max-height: 1000px;
+    transform: scaleY(1);
+  }
+}
+
+@keyframes typing {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0.3;
+  }
+}

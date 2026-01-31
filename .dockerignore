@@ -1,0 +1,61 @@
+# Node.js dependencies and build artifacts
+baby-and-me-chatbot/node_modules/
+baby-and-me-chatbot/dist/
+baby-and-me-chatbot/.env.local
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Logs
+*.log
+
+# Environment files (keep .env.example if exists)
+.env.local
+.env.production
+
+# Database files
+*.db
+*.sqlite
+
+# Documentation
+README.md
+*.md
+!requirements.txt

@@ -1,0 +1,5 @@
+{
+  "name": "Baby and Me Chatbot",
+  "description": "A clean and simple chatbot interface, similar to Google AI Studio, designed to provide streaming responses for new and expecting parents.",
+  "requestFramePermissions": []
+}

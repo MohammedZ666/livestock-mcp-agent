@@ -1,0 +1,24 @@
+{
+  "mcpServers": {
+    "tavily-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "tavily-mcp"
+      ],
+      "env": {
+        "TAVILY_API_KEY": "<Your api key>"
+      },
+      "disabled": false,
+      "autoApprove": []
+    },
+    "Pregnancy_kb_server": {
+      "command": "python",
+      "args": [
+        "langchain_chatbot/server.py"
+      ],
+      "disabled": false,
+      "autoApprove": []
+    }
+  }
+}
