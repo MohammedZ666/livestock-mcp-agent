@@ -5,3 +5,5 @@ dumb.py
 __pycache__/
 /Survey
 /evaluation
+/venv
+/Database/output/images
