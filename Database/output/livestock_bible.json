@@ -7,7 +7,7 @@
   {
     "id": 1,
     "type": "image",
-    "image_path": "images\\image_1.png",
+    "image_path": "images/image_1.png",
     "text": "figure related to livestock"
   },
   {
@@ -185,7 +185,7 @@
   {
     "id": 34,
     "type": "image",
-    "image_path": "images\\image_2.png",
+    "image_path": "images/image_2.png",
     "text": "figure related to livestock"
   },
   {
@@ -211,7 +211,7 @@
   {
     "id": 39,
     "type": "image",
-    "image_path": "images\\image_3.png",
+    "image_path": "images/image_3.png",
     "text": "figure related to livestock"
   },
   {
@@ -232,13 +232,13 @@
   {
     "id": 43,
     "type": "image",
-    "image_path": "images\\image_4.png",
+    "image_path": "images/image_4.png",
     "text": "figure related to livestock"
   },
   {
     "id": 44,
     "type": "image",
-    "image_path": "images\\image_5.png",
+    "image_path": "images/image_5.png",
     "text": "figure related to livestock"
   },
   {
@@ -254,13 +254,13 @@
   {
     "id": 47,
     "type": "image",
-    "image_path": "images\\image_6.png",
+    "image_path": "images/image_6.png",
     "text": "figure related to livestock"
   },
   {
     "id": 48,
     "type": "image",
-    "image_path": "images\\image_7.png",
+    "image_path": "images/image_7.png",
     "text": "figure related to livestock"
   },
   {
@@ -281,7 +281,7 @@
   {
     "id": 52,
     "type": "image",
-    "image_path": "images\\image_8.png",
+    "image_path": "images/image_8.png",
     "text": "figure related to livestock"
   },
   {
@@ -502,7 +502,7 @@
   {
     "id": 69,
     "type": "image",
-    "image_path": "images\\image_9.png",
+    "image_path": "images/image_9.png",
     "text": "figure related to livestock"
   },
   {
@@ -523,7 +523,7 @@
   {
     "id": 73,
     "type": "image",
-    "image_path": "images\\image_10.png",
+    "image_path": "images/image_10.png",
     "text": "figure related to livestock"
   },
   {
@@ -559,7 +559,7 @@
   {
     "id": 80,
     "type": "image",
-    "image_path": "images\\image_11.png",
+    "image_path": "images/image_11.png",
     "text": "figure related to livestock"
   },
   {
@@ -600,7 +600,7 @@
   {
     "id": 88,
     "type": "image",
-    "image_path": "images\\image_12.png",
+    "image_path": "images/image_12.png",
     "text": "figure related to livestock"
   },
   {
@@ -1657,13 +1657,13 @@
   {
     "id": 163,
     "type": "image",
-    "image_path": "images\\image_13.png",
+    "image_path": "images/image_13.png",
     "text": "figure related to livestock"
   },
   {
     "id": 164,
     "type": "image",
-    "image_path": "images\\image_14.png",
+    "image_path": "images/image_14.png",
     "text": "figure related to livestock"
   },
   {
@@ -1674,7 +1674,7 @@
   {
     "id": 166,
     "type": "image",
-    "image_path": "images\\image_15.png",
+    "image_path": "images/image_15.png",
     "text": "figure related to livestock"
   },
   {
@@ -1685,7 +1685,7 @@
   {
     "id": 168,
     "type": "image",
-    "image_path": "images\\image_16.png",
+    "image_path": "images/image_16.png",
     "text": "figure related to livestock"
   },
   {
@@ -1696,7 +1696,7 @@
   {
     "id": 170,
     "type": "image",
-    "image_path": "images\\image_17.png",
+    "image_path": "images/image_17.png",
     "text": "figure related to livestock"
   },
   {
@@ -1707,13 +1707,13 @@
   {
     "id": 172,
     "type": "image",
-    "image_path": "images\\image_18.png",
+    "image_path": "images/image_18.png",
     "text": "figure related to livestock"
   },
   {
     "id": 173,
     "type": "image",
-    "image_path": "images\\image_19.png",
+    "image_path": "images/image_19.png",
     "text": "figure related to livestock"
   },
   {
@@ -2124,7 +2124,7 @@
   {
     "id": 199,
     "type": "image",
-    "image_path": "images\\image_20.png",
+    "image_path": "images/image_20.png",
     "text": "figure related to livestock"
   },
   {
@@ -2145,7 +2145,7 @@
   {
     "id": 203,
     "type": "image",
-    "image_path": "images\\image_21.png",
+    "image_path": "images/image_21.png",
     "text": "figure related to livestock"
   },
   {
@@ -2161,7 +2161,7 @@
   {
     "id": 206,
     "type": "image",
-    "image_path": "images\\image_22.png",
+    "image_path": "images/image_22.png",
     "text": "figure related to livestock"
   },
   {
@@ -2177,7 +2177,7 @@
   {
     "id": 209,
     "type": "image",
-    "image_path": "images\\image_23.png",
+    "image_path": "images/image_23.png",
     "text": "figure related to livestock"
   },
   {
@@ -2395,7 +2395,7 @@
   {
     "id": 241,
     "type": "image",
-    "image_path": "images\\image_24.png",
+    "image_path": "images/image_24.png",
     "text": "figure related to livestock"
   },
   {
@@ -2471,7 +2471,7 @@
   {
     "id": 256,
     "type": "image",
-    "image_path": "images\\image_25.png",
+    "image_path": "images/image_25.png",
     "text": "figure related to livestock"
   },
   {
@@ -2522,7 +2522,7 @@
   {
     "id": 266,
     "type": "image",
-    "image_path": "images\\image_26.png",
+    "image_path": "images/image_26.png",
     "text": "figure related to livestock"
   },
   {
@@ -2690,7 +2690,7 @@
   {
     "id": 287,
     "type": "image",
-    "image_path": "images\\image_27.png",
+    "image_path": "images/image_27.png",
     "text": "figure related to livestock"
   },
   {
@@ -3095,7 +3095,7 @@
   {
     "id": 346,
     "type": "image",
-    "image_path": "images\\image_28.png",
+    "image_path": "images/image_28.png",
     "text": "figure related to livestock"
   },
   {
@@ -3111,7 +3111,7 @@
   {
     "id": 349,
     "type": "image",
-    "image_path": "images\\image_29.png",
+    "image_path": "images/image_29.png",
     "text": "figure related to livestock"
   },
   {
@@ -3132,7 +3132,7 @@
   {
     "id": 353,
     "type": "image",
-    "image_path": "images\\image_30.png",
+    "image_path": "images/image_30.png",
     "text": "figure related to livestock"
   },
   {
@@ -3148,7 +3148,7 @@
   {
     "id": 356,
     "type": "image",
-    "image_path": "images\\image_31.png",
+    "image_path": "images/image_31.png",
     "text": "figure related to livestock"
   },
   {
@@ -3189,7 +3189,7 @@
   {
     "id": 363,
     "type": "image",
-    "image_path": "images\\image_32.png",
+    "image_path": "images/image_32.png",
     "text": "figure related to livestock"
   },
   {
@@ -3200,7 +3200,7 @@
   {
     "id": 365,
     "type": "image",
-    "image_path": "images\\image_33.png",
+    "image_path": "images/image_33.png",
     "text": "figure related to livestock"
   },
   {
@@ -3216,7 +3216,7 @@
   {
     "id": 368,
     "type": "image",
-    "image_path": "images\\image_34.png",
+    "image_path": "images/image_34.png",
     "text": "figure related to livestock"
   },
   {
@@ -3252,7 +3252,7 @@
   {
     "id": 374,
     "type": "image",
-    "image_path": "images\\image_35.png",
+    "image_path": "images/image_35.png",
     "text": "figure related to livestock"
   },
   {
@@ -3514,7 +3514,7 @@
   {
     "id": 407,
     "type": "image",
-    "image_path": "images\\image_36.png",
+    "image_path": "images/image_36.png",
     "text": "figure related to livestock"
   },
   {
@@ -3555,7 +3555,7 @@
   {
     "id": 415,
     "type": "image",
-    "image_path": "images\\image_37.png",
+    "image_path": "images/image_37.png",
     "text": "figure related to livestock"
   },
   {
@@ -3606,7 +3606,7 @@
   {
     "id": 425,
     "type": "image",
-    "image_path": "images\\image_38.png",
+    "image_path": "images/image_38.png",
     "text": "figure related to livestock"
   },
   {
@@ -3627,7 +3627,7 @@
   {
     "id": 429,
     "type": "image",
-    "image_path": "images\\image_39.png",
+    "image_path": "images/image_39.png",
     "text": "figure related to livestock"
   },
   {
@@ -3673,7 +3673,7 @@
   {
     "id": 438,
     "type": "image",
-    "image_path": "images\\image_40.png",
+    "image_path": "images/image_40.png",
     "text": "figure related to livestock"
   },
   {
@@ -3878,7 +3878,7 @@
   {
     "id": 460,
     "type": "image",
-    "image_path": "images\\image_41.png",
+    "image_path": "images/image_41.png",
     "text": "figure related to livestock"
   },
   {
@@ -3914,7 +3914,7 @@
   {
     "id": 467,
     "type": "image",
-    "image_path": "images\\image_42.png",
+    "image_path": "images/image_42.png",
     "text": "figure related to livestock"
   },
   {
@@ -3975,7 +3975,7 @@
   {
     "id": 479,
     "type": "image",
-    "image_path": "images\\image_43.png",
+    "image_path": "images/image_43.png",
     "text": "figure related to livestock"
   },
   {
@@ -4026,7 +4026,7 @@
   {
     "id": 489,
     "type": "image",
-    "image_path": "images\\image_44.png",
+    "image_path": "images/image_44.png",
     "text": "figure related to livestock"
   },
   {
@@ -4367,7 +4367,7 @@
   {
     "id": 520,
     "type": "image",
-    "image_path": "images\\image_45.png",
+    "image_path": "images/image_45.png",
     "text": "figure related to livestock"
   },
   {
@@ -4403,7 +4403,7 @@
   {
     "id": 527,
     "type": "image",
-    "image_path": "images\\image_46.png",
+    "image_path": "images/image_46.png",
     "text": "figure related to livestock"
   },
   {
@@ -5160,7 +5160,7 @@
   {
     "id": 617,
     "type": "image",
-    "image_path": "images\\image_47.png",
+    "image_path": "images/image_47.png",
     "text": "figure related to livestock"
   },
   {
@@ -5274,7 +5274,7 @@
   {
     "id": 632,
     "type": "image",
-    "image_path": "images\\image_48.png",
+    "image_path": "images/image_48.png",
     "text": "figure related to livestock"
   },
   {
@@ -5285,7 +5285,7 @@
   {
     "id": 634,
     "type": "image",
-    "image_path": "images\\image_49.png",
+    "image_path": "images/image_49.png",
     "text": "figure related to livestock"
   },
   {
@@ -5296,7 +5296,7 @@
   {
     "id": 636,
     "type": "image",
-    "image_path": "images\\image_50.png",
+    "image_path": "images/image_50.png",
     "text": "figure related to livestock"
   },
   {
@@ -5369,13 +5369,13 @@
   {
     "id": 644,
     "type": "image",
-    "image_path": "images\\image_51.png",
+    "image_path": "images/image_51.png",
     "text": "figure related to livestock"
   },
   {
     "id": 645,
     "type": "image",
-    "image_path": "images\\image_52.png",
+    "image_path": "images/image_52.png",
     "text": "figure related to livestock"
   },
   {
@@ -6741,7 +6741,7 @@
   {
     "id": 765,
     "type": "image",
-    "image_path": "images\\image_53.png",
+    "image_path": "images/image_53.png",
     "text": "figure related to livestock"
   },
   {
@@ -6906,7 +6906,7 @@
   {
     "id": 783,
     "type": "image",
-    "image_path": "images\\image_54.png",
+    "image_path": "images/image_54.png",
     "text": "figure related to livestock"
   },
   {
@@ -6922,7 +6922,7 @@
   {
     "id": 786,
     "type": "image",
-    "image_path": "images\\image_55.png",
+    "image_path": "images/image_55.png",
     "text": "figure related to livestock"
   },
   {
@@ -7182,7 +7182,7 @@
   {
     "id": 797,
     "type": "image",
-    "image_path": "images\\image_56.png",
+    "image_path": "images/image_56.png",
     "text": "figure related to livestock"
   },
   {
@@ -7499,7 +7499,7 @@
   {
     "id": 809,
     "type": "image",
-    "image_path": "images\\image_57.png",
+    "image_path": "images/image_57.png",
     "text": "figure related to livestock"
   },
   {
@@ -7515,7 +7515,7 @@
   {
     "id": 812,
     "type": "image",
-    "image_path": "images\\image_58.png",
+    "image_path": "images/image_58.png",
     "text": "figure related to livestock"
   },
   {
@@ -7846,7 +7846,7 @@
   {
     "id": 837,
     "type": "image",
-    "image_path": "images\\image_59.png",
+    "image_path": "images/image_59.png",
     "text": "figure related to livestock"
   },
   {
@@ -7907,7 +7907,7 @@
   {
     "id": 849,
     "type": "image",
-    "image_path": "images\\image_60.png",
+    "image_path": "images/image_60.png",
     "text": "figure related to livestock"
   },
   {
@@ -7963,7 +7963,7 @@
   {
     "id": 860,
     "type": "image",
-    "image_path": "images\\image_61.png",
+    "image_path": "images/image_61.png",
     "text": "figure related to livestock"
   },
   {
@@ -8028,7 +8028,7 @@
   {
     "id": 870,
     "type": "image",
-    "image_path": "images\\image_62.png",
+    "image_path": "images/image_62.png",
     "text": "figure related to livestock"
   },
   {
@@ -8506,7 +8506,7 @@
   {
     "id": 921,
     "type": "image",
-    "image_path": "images\\image_63.png",
+    "image_path": "images/image_63.png",
     "text": "figure related to livestock"
   },
   {
@@ -8522,7 +8522,7 @@
   {
     "id": 924,
     "type": "image",
-    "image_path": "images\\image_64.png",
+    "image_path": "images/image_64.png",
     "text": "figure related to livestock"
   },
   {
@@ -8533,49 +8533,49 @@
   {
     "id": 926,
     "type": "image",
-    "image_path": "images\\image_65.png",
+    "image_path": "images/image_65.png",
     "text": "figure related to livestock"
   },
   {
     "id": 927,
     "type": "image",
-    "image_path": "images\\image_66.png",
+    "image_path": "images/image_66.png",
     "text": "figure related to livestock"
   },
   {
     "id": 928,
     "type": "image",
-    "image_path": "images\\image_67.png",
+    "image_path": "images/image_67.png",
     "text": "figure related to livestock"
   },
   {
     "id": 929,
     "type": "image",
-    "image_path": "images\\image_68.png",
+    "image_path": "images/image_68.png",
     "text": "figure related to livestock"
   },
   {
     "id": 930,
     "type": "image",
-    "image_path": "images\\image_69.png",
+    "image_path": "images/image_69.png",
     "text": "figure related to livestock"
   },
   {
     "id": 931,
     "type": "image",
-    "image_path": "images\\image_70.png",
+    "image_path": "images/image_70.png",
     "text": "figure related to livestock"
   },
   {
     "id": 932,
     "type": "image",
-    "image_path": "images\\image_71.png",
+    "image_path": "images/image_71.png",
     "text": "figure related to livestock"
   },
   {
     "id": 933,
     "type": "image",
-    "image_path": "images\\image_72.png",
+    "image_path": "images/image_72.png",
     "text": "figure related to livestock"
   },
   {
@@ -8801,7 +8801,7 @@
   {
     "id": 956,
     "type": "image",
-    "image_path": "images\\image_73.png",
+    "image_path": "images/image_73.png",
     "text": "figure related to livestock"
   },
   {
@@ -8812,7 +8812,7 @@
   {
     "id": 958,
     "type": "image",
-    "image_path": "images\\image_74.png",
+    "image_path": "images/image_74.png",
     "text": "figure related to livestock"
   },
   {
@@ -8823,7 +8823,7 @@
   {
     "id": 960,
     "type": "image",
-    "image_path": "images\\image_75.png",
+    "image_path": "images/image_75.png",
     "text": "figure related to livestock"
   },
   {
@@ -8839,7 +8839,7 @@
   {
     "id": 963,
     "type": "image",
-    "image_path": "images\\image_76.png",
+    "image_path": "images/image_76.png",
     "text": "figure related to livestock"
   },
   {
@@ -8855,7 +8855,7 @@
   {
     "id": 966,
     "type": "image",
-    "image_path": "images\\image_77.png",
+    "image_path": "images/image_77.png",
     "text": "figure related to livestock"
   },
   {
@@ -8866,7 +8866,7 @@
   {
     "id": 968,
     "type": "image",
-    "image_path": "images\\image_78.png",
+    "image_path": "images/image_78.png",
     "text": "figure related to livestock"
   },
   {
@@ -9151,13 +9151,13 @@
   {
     "id": 1006,
     "type": "image",
-    "image_path": "images\\image_79.png",
+    "image_path": "images/image_79.png",
     "text": "figure related to livestock"
   },
   {
     "id": 1007,
     "type": "image",
-    "image_path": "images\\image_80.png",
+    "image_path": "images/image_80.png",
     "text": "figure related to livestock"
   },
   {
@@ -9168,7 +9168,7 @@
   {
     "id": 1009,
     "type": "image",
-    "image_path": "images\\image_81.png",
+    "image_path": "images/image_81.png",
     "text": "figure related to livestock"
   },
   {
@@ -9179,7 +9179,7 @@
   {
     "id": 1011,
     "type": "image",
-    "image_path": "images\\image_82.png",
+    "image_path": "images/image_82.png",
     "text": "figure related to livestock"
   },
   {
@@ -9195,7 +9195,7 @@
   {
     "id": 1014,
     "type": "image",
-    "image_path": "images\\image_83.png",
+    "image_path": "images/image_83.png",
     "text": "figure related to livestock"
   },
   {
@@ -9206,7 +9206,7 @@
   {
     "id": 1016,
     "type": "image",
-    "image_path": "images\\image_84.png",
+    "image_path": "images/image_84.png",
     "text": "figure related to livestock"
   },
   {
@@ -9285,7 +9285,7 @@
   {
     "id": 1020,
     "type": "image",
-    "image_path": "images\\image_85.png",
+    "image_path": "images/image_85.png",
     "text": "figure related to livestock"
   },
   {
@@ -9296,7 +9296,7 @@
   {
     "id": 1022,
     "type": "image",
-    "image_path": "images\\image_86.png",
+    "image_path": "images/image_86.png",
     "text": "figure related to livestock"
   },
   {
@@ -9307,7 +9307,7 @@
   {
     "id": 1024,
     "type": "image",
-    "image_path": "images\\image_87.png",
+    "image_path": "images/image_87.png",
     "text": "figure related to livestock"
   },
   {
@@ -9318,7 +9318,7 @@
   {
     "id": 1026,
     "type": "image",
-    "image_path": "images\\image_88.png",
+    "image_path": "images/image_88.png",
     "text": "figure related to livestock"
   },
   {
@@ -9413,7 +9413,7 @@
   {
     "id": 1035,
     "type": "image",
-    "image_path": "images\\image_89.png",
+    "image_path": "images/image_89.png",
     "text": "figure related to livestock"
   },
   {
@@ -9424,7 +9424,7 @@
   {
     "id": 1037,
     "type": "image",
-    "image_path": "images\\image_90.png",
+    "image_path": "images/image_90.png",
     "text": "figure related to livestock"
   },
   {
@@ -9445,7 +9445,7 @@
   {
     "id": 1041,
     "type": "image",
-    "image_path": "images\\image_91.png",
+    "image_path": "images/image_91.png",
     "text": "figure related to livestock"
   },
   {
@@ -9456,7 +9456,7 @@
   {
     "id": 1043,
     "type": "image",
-    "image_path": "images\\image_92.png",
+    "image_path": "images/image_92.png",
     "text": "figure related to livestock"
   },
   {
@@ -9482,7 +9482,7 @@
   {
     "id": 1048,
     "type": "image",
-    "image_path": "images\\image_93.png",
+    "image_path": "images/image_93.png",
     "text": "figure related to livestock"
   },
   {
@@ -9498,7 +9498,7 @@
   {
     "id": 1051,
     "type": "image",
-    "image_path": "images\\image_94.png",
+    "image_path": "images/image_94.png",
     "text": "figure related to livestock"
   },
   {
@@ -11398,13 +11398,13 @@
   {
     "id": 1278,
     "type": "image",
-    "image_path": "images\\image_95.png",
+    "image_path": "images/image_95.png",
     "text": "figure related to livestock"
   },
   {
     "id": 1279,
     "type": "image",
-    "image_path": "images\\image_96.png",
+    "image_path": "images/image_96.png",
     "text": "figure related to livestock"
   },
   {
@@ -11415,7 +11415,7 @@
   {
     "id": 1281,
     "type": "image",
-    "image_path": "images\\image_97.png",
+    "image_path": "images/image_97.png",
     "text": "figure related to livestock"
   },
   {
@@ -11426,7 +11426,7 @@
   {
     "id": 1283,
     "type": "image",
-    "image_path": "images\\image_98.png",
+    "image_path": "images/image_98.png",
     "text": "figure related to livestock"
   },
   {
@@ -11437,7 +11437,7 @@
   {
     "id": 1285,
     "type": "image",
-    "image_path": "images\\image_99.png",
+    "image_path": "images/image_99.png",
     "text": "figure related to livestock"
   },
   {
@@ -11448,7 +11448,7 @@
   {
     "id": 1287,
     "type": "image",
-    "image_path": "images\\image_100.png",
+    "image_path": "images/image_100.png",
     "text": "figure related to livestock"
   },
   {
@@ -11459,7 +11459,7 @@
   {
     "id": 1289,
     "type": "image",
-    "image_path": "images\\image_101.png",
+    "image_path": "images/image_101.png",
     "text": "figure related to livestock"
   },
   {
@@ -11470,7 +11470,7 @@
   {
     "id": 1291,
     "type": "image",
-    "image_path": "images\\image_102.png",
+    "image_path": "images/image_102.png",
     "text": "figure related to livestock"
   },
   {
