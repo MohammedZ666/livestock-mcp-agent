@@ -7,20 +7,12 @@ from langchain_postgres import PGVector
 from dotenv import load_dotenv
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from utils.nvidia_bge_m3 import NvidiaOpenAIEmbeddings_BGE_M3
+from utils.embedding_engine import embedding_engine
 
 load_dotenv(".env")
 
-mcp = FastMCP("Pregnancy_kb_server")
+mcp = FastMCP(name=os.getenv("APP_NAME"))
 SUPABASE_PG_CONN_URL = os.getenv("DB_URI")
-
-
-embedding_engine = NvidiaOpenAIEmbeddings_BGE_M3(
-    api_key=os.getenv("NVIDIA_API_KEY"),
-    base_url="https://integrate.api.nvidia.com/v1",
-    model="baai/bge-m3",
-)
-
 
 @mcp.tool
 def knowledgebase(messages: str):
@@ -37,7 +29,7 @@ def knowledgebase(messages: str):
 
     vector_store = PGVector(
         embeddings=embedding_engine,
-        collection_name="pregnancy_bot",
+        collection_name=os.getenv("COLLECTION_NAME"),
         connection=SUPABASE_PG_CONN_URL,
         use_jsonb=True,
     )

@@ -21,7 +21,7 @@ load_dotenv()
 os.environ["LANGSMITH_TRACING"] = "true"
 os.environ["LANGSMITH_ENDPOINT"] = "https://api.smith.langchain.com"
 os.environ["LANGSMITH_API_KEY"] = os.getenv("LANGSMITH_API_KEY")
-os.environ["LANGSMITH_PROJECT"] = "pregnancy_bot"
+os.environ["LANGSMITH_PROJECT"] = os.getenv("LANGSMITH_PROJECT")
 DB_URI = os.getenv("DB_URI")
 
 google = init_chat_model("google_genai:gemini-2.5-flash", temperature=0.3)
@@ -33,8 +33,7 @@ class State(MessagesState):
 async def initialize_chat(state: State):
     try:
         print("Initializing chat...")
-        config_file = os.getenv("MCP_CONFIG_FILE", "config.json")
-        tools = await get_mcp_tools_from_config(config_file)
+        tools = await get_mcp_tools_from_config()
         print(f"Loaded {len(tools)} tools from MCP config")
 
         prompt = ChatPromptTemplate.from_messages(

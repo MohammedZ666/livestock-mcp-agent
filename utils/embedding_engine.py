@@ -2,8 +2,9 @@ import os
 from typing import List
 from google import genai
 from google.genai import types
+from dotenv import load_dotenv
 from langchain_core.embeddings import Embeddings
-
+load_dotenv(override=True)
 
 
 class GeminiEmbedder(Embeddings):

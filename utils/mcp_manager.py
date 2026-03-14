@@ -7,15 +7,13 @@ from langchain_mcp_adapters.client import MultiServerMCPClient
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
 
+from utils.config import config_json
 
-async def generate_mcp_config_file(config_json: str):
-    print(f"Loading MCP config from {config_json}")
-    with open(config_json, "r") as f:
-        config = json.load(f)
 
+async def generate_mcp_config_file():
+    print(f"Loading MCP configuration")
     mcp_config = {}
-
-    for server_name, server_info in config["mcpServers"].items():
+    for server_name, server_info in config_json["mcpServers"].items():
         if server_info.get("disabled", False):
             continue
 
@@ -40,14 +38,12 @@ async def generate_mcp_config_file(config_json: str):
     return mcp_config
 
 
-async def create_mcp_client(config_file: str):
-    print(f"Loading MCP config from {config_file}")
-    with open(config_file, "r") as f:
-        config = json.load(f)
+async def create_mcp_client():
+    print(f"Loading MCP configuration")
 
     mcp_config = {}
 
-    for server_name, server_info in config["mcpServers"].items():
+    for server_name, server_info in config_json["mcpServers"].items():
         if server_info.get("disabled", False):
             continue
 
@@ -88,9 +84,9 @@ async def load_tools_for_server(name, cfg):
         return []
 
 
-async def get_mcp_tools_from_config(config_file: str):
+async def get_mcp_tools_from_config():
     """Loads MCP tools from all servers concurrently."""
-    config = await generate_mcp_config_file(config_file)
+    config = await generate_mcp_config_file()
     results = await asyncio.gather(
         *(load_tools_for_server(name, cfg) for name, cfg in config.items()),
         return_exceptions=False,
@@ -102,6 +98,6 @@ async def get_mcp_tools_from_config(config_file: str):
 
 
 if __name__ == "__main__":
-    tools = asyncio.run(get_mcp_tools_from_config("config.json"))
+    tools = asyncio.run(get_mcp_tools_from_config())
 
     print(tools)

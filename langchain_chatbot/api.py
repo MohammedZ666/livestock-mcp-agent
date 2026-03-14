@@ -11,9 +11,9 @@ from stream_generator import event_generator
 from langchain_core.messages import HumanMessage
 
 app = FastAPI(
-    name="Pregnancy Bot",
-    description="A chatbot for pregnancy",
-    version="1.0.0",
+    name=os.getenv("APP_NAME"),
+    description=os.getenv("APP_DESCRIPTION"),
+    version=os.getenv("APP_VERSION"),
 )
 
 app.add_middleware(
