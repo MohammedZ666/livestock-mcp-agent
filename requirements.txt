@@ -28,3 +28,4 @@ uuid
 pdf2docx
 docx
 unicodeconverter
+google-genai>=1.0.0

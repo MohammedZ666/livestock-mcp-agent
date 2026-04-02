@@ -14,7 +14,7 @@ const App: React.FC = () => {
 
   useEffect(() => {
     setChatHistory([
-      { author: Author.BOT, content: "হাই! আমি Baby and Me বট 🥰 আপনার দিনটি সহজ করতে সাহায্য করবো। ❤️" }
+      { author: Author.BOT, content: "আমি সবারখামার chatbot। আপনাকে আজকে কিভাবে সাহায্য করতে পারি?" }
     ]);
   }, []);
 
@@ -150,7 +150,7 @@ const App: React.FC = () => {
         <h1 className={`font-bold text-center bg-gradient-to-r from-rose-500 to-pink-500 bg-clip-text text-transparent transition-all duration-500 ease-out ${
           hasStartedChatting ? 'text-xl' : 'text-3xl'
         }`}>
-          Baby and Me
+          সবারখামার বট
         </h1>
       </header>
 
@@ -177,7 +177,7 @@ const App: React.FC = () => {
       <footer className="border-t border-rose-200 bg-gradient-to-r from-rose-50 to-pink-50 flex-shrink-0 safe-area-inset-bottom">
         <ChatInput onSendMessage={handleSendMessage} isLoading={isLoading} />
         <div className="text-center text-[10px] text-gray-500 py-1">
-        This chatbot is a component of a thesis research project and provides information based on a curated dataset of medical literature. It is intended for informational and educational purposes only.
+        This is an experimental chatbot, intended for informational and educational purposes only.
         </div>
       </footer>
     </div>
