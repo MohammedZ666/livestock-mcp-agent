@@ -5,7 +5,7 @@ import asyncio
 from rich import print
 from langchain_mcp_adapters.client import MultiServerMCPClient
 
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
+# sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "../../")))
 
 from utils.config import config_json
 

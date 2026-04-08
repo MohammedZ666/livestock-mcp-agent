@@ -1,12 +1,12 @@
-# Baby and Me 🤰 - Pregnancy & Parenting AI Assistant
+# Shobarkhamar Chatbot
 
-A modern, AI-powered chatbot designed to help expecting parents and new parents with pregnancy, baby care, and parenting questions. Built with React frontend and FastAPI backend.
+A modern, AI-powered chatbot designed to help farmers answer their livestock related questions. Built with React frontend and FastAPI backend.
 
 ## 🏗️ Project Structure
 
 ```
-pregnancy_agent/
-├── baby-and-me-chatbot/          # React Frontend
+livestock_mcp_agent/
+├── frontend/          # React Frontend
 │   ├── components/               # UI Components
 │   │   ├── ChatInput.tsx        # Message input component
 │   │   ├── ChatMessage.tsx      # Individual message display
@@ -75,6 +75,7 @@ pregnancy_agent/
 2. **Install Python dependencies:**
    ```bash
    pip install -r requirements.txt
+   pip install -e .
    ```
   Also setup `.env` file
 
@@ -88,7 +89,7 @@ pregnancy_agent/
 
 1. **Navigate to frontend directory:**
    ```bash
-   cd baby-and-me-chatbot
+   cd frontend
    ```
 
 2. **Install dependencies:**
@@ -98,7 +99,7 @@ pregnancy_agent/
 
 3. **Create environment file:**
    ```bash
-   echo "VITE_API_BASE_URL=http://localhost:9700" > .env.local
+   echo "VITE_API_BASE_URL=http://localhost:6500" > .env.local
    ```
 
 4. **Start development server:**
@@ -144,10 +145,10 @@ pregnancy_agent/
 - **Language**: Bengali and English support
 
 ### Backend Configuration
-- **MCP Servers**: Configured in `config.json`
-- **Database**: PostgreSQL connection string
+- **MCP Servers**: Configured in `utils/config.py`
+- **Database**: Supabase connection string
 - **AI Model**: Google Gemini 2.5 Flash
-- **System Prompt**: Customized for pregnancy/parenting domain
+- **System Prompt**: Customized for livstock-rearing domain
 
 ## 🚀 Deployment
 

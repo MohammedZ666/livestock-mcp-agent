@@ -6,8 +6,8 @@ from fastmcp import FastMCP
 from langchain_postgres import PGVector
 from dotenv import load_dotenv
 
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from utils.embedding_engine import embedding_engine
+# sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from utils import embedding_engine
 
 load_dotenv(".env")
 

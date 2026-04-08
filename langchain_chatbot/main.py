@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from psycopg import AsyncConnection
 
 # Add parent directory to path to import utils
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from langchain_core.prompts import ChatPromptTemplate
 from langchain.chat_models import init_chat_model
